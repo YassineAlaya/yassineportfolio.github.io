@@ -1,0 +1,397 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+ font-family: 'Poppins', sans-serif;
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ scroll-behavior: smooth;
+
+}
+
+header{
+    background-color: #f0f0f0;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+}
+
+.logo1{
+    text-decoration: none;
+    color: #012840;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.8em;
+    transition: all .1s ease-in;
+}
+.logo1:hover{
+    color: #BF9E60;
+}
+
+.navigation a{
+    text-decoration: none;
+    color: #012840;
+    font-size: 1.1em;
+    font-weight: 500;
+    padding-left: 30px;
+    transition: all .1s ease-in;
+}
+
+.navigation a:hover{
+    color: #BF9E60;
+    
+}
+
+section {
+    padding: 200px 100px;
+
+}
+
+.main{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(./images/img.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.main h2{
+    color: white;
+    font-size: 1.4em;
+    font-weight: 500;
+}
+
+.main h2 span{
+    display: inline-block;
+    margin-top: 10px;
+    color: #BF9E60;
+    font-size: 3em;
+    font-weight: 600;
+}
+.main h3{
+    color: white;
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom: 30px ;
+}
+
+.main-btn10{
+    color: white;
+    background-color: #BF9E60;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 600;
+    display: inline-block;
+    padding: 0.9375em 2.1875em;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+    transition: 0.7s ease;
+}
+
+.detcard .main-btn10:hover{
+    transform: scale(1.05);
+
+}
+.main-btn10:hover{
+
+    transform: scale(1.15);
+    color: white;
+
+
+}
+
+
+.social-icons a{
+    color: white;
+    font-size: 1.7em;
+    padding-right: 12px;
+    padding-left: 12px;
+
+    
+}
+.footer .social-icons a:hover {
+color: white;
+}
+
+.social-icons a:hover {
+color: #BF9E60;
+}
+
+
+.title{
+    display: flex;
+    justify-content: center;
+    color: #012840;
+    font-size: 2.2em;
+    font-weight: 800;
+    margin-bottom: 30px;
+
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card{
+    background-color: #f0f0f0;
+    width: 21.25em;
+    box-shadow: 0 5px 25px rgba(1, 1,1, 15%);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px;
+    transition: 0.7s;
+}
+
+.card:hover{
+    transform: scale(1.1);
+}
+
+.icon{
+    color: #BF9E60;
+    font-size: 8em;
+    text-align: center;
+}
+
+.info1{
+    text-align: center;
+}
+
+.info1 h3{
+    color: #012840;
+    font-weight: 700;
+    font-size: 1.2em;
+    margin: 10px;
+}
+.info{
+    text-align: center;
+}
+
+.info h3{
+    color: #012840;
+    font-weight: 700;
+    font-size: 1.2em;
+    margin: 10px;
+}
+
+
+.projects{
+    background-color:#BF9E60 ;
+}
+
+.project .content{
+    margin-top: 30px;
+}
+
+.project-card{
+    background-color: #f0f0f0;
+    border: 4px solid white ;
+    min-height: 14em;
+    width: 23em;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 20px;
+    transition: 0.7s ease;
+}
+
+.project-card:hover{
+    transform:scale(1.1);
+}
+
+.project-card:hover .project-image{
+    opacity: 0.9;
+}
+
+.project-image img{
+    width: 100%;
+}
+
+.project-info{
+    padding: 1em;
+}
+
+.project-category{
+    font-size: 0.8em;
+    color: #000;
+}
+
+.project-title{
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-top: 10px;
+}
+
+.more-details{
+    text-decoration: none;
+    color: #012840;
+}
+
+.more-details:hover{
+    color: #A69B03;
+}
+
+
+.cards-contact .icon{
+    font-size: 4.5em;
+}
+
+.cards-contact .info h3{
+}
+
+.cards-contact .info p{
+    font-size: 1.3em;
+}
+
+footer{
+    background-color: #BF9E60;
+    color: white;
+    padding: 2em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.skills .icon{
+    font-size: 4em;
+}
+
+.skills .card{
+    background-color: #012840;
+    width: 12em;
+    box-shadow: 15px 15px 8px rgba(1, 1,1, 25%);
+    border-radius: 20px;
+    padding: 25px;
+    margin: 15px;
+    transition: 0.7s;
+    border: 3px solid #BF9E60;
+    
+}
+
+.skills .card:hover{
+    transform: translateY(10px);
+}
+
+.skills .info h3{
+    color: white;
+}
+
+.about{
+    padding: 10px;
+}
+
+.projects{
+    padding: 80px;
+}
+
+
+.detcard{
+    background-color: #f0f0f0;
+    padding: 50px;
+
+
+}
+.show{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 70%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+
+}
+
+.detcard .main-btn10{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+
+}
+
+
+.detcard h3{
+    color: #BF9E60;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+
+
+
+
+.contact-form{
+  background: #fff;
+  max-width: 600px;
+  margin-top: 50px;
+  padding: 50px;
+  border-radius: 10px;
+  box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
+}
+
+.contact-form h3{
+  color: #012840;
+  font-size: 1.5em;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.contact-form .input-box{
+  position: relative;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.contact-form .input-box input,
+.contact-form .input-box textarea{
+  color: #111;
+  width: 100%;
+  padding: 10px;
+  font-size: 1em;
+  font-weight: 400;
+  outline: none;
+  border: 1px solid #111;
+  border-radius: 5px;
+  resize: none;
+}
+
+.contact-form .input-box .send-btn{
+  color: #fff;
+  background: #BF9E60;
+  display: inline-block;
+  font-size: 1.1em;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  width: 100%;
+  border: none;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+
+.contact-form .input-box .send-btn:hover{
+  transform: scale(1.02);
+}
+
+.cards-contact .content .card{
+    margin: 30px;
+    margin-bottom: 100px;
+}
+
+.cards-contact{
+    padding: 100px;
+}
